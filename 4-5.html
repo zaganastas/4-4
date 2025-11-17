@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://www.fontsquirrel.com/fonts/barlow" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <img src="./assets/bg.jpg" alt="icon">
+            <img src="./assets/logo.svg" width="116" alt="intoo logo" class="logo">
+        </div>
+        <div class="right">
+            <main class="form-card">
+                <h1>Get intoo it today</h1>
+                <h3>There is no charge or obligation upon registration.</h3>
+
+                <div class="social-buttons ">
+                    <button class="btn btn-fb">
+                        <img src="./assets/facebook.svg" alt="facebook" class="icon">
+                        Register with Facebook
+                    </button>
+                    <button class="btn btn-in">
+                        <img src="./assets/linkedin.svg" alt="linkedin" class="icon">
+                        Register with LinkedIn
+                    </button>
+
+                </div>
+
+                <div class="divider">OR</div>
+
+                <div class="form-row">
+                    <div class="input-container">
+                        <label for="email" class="input-label">Email</label>
+                        <input type="email" id="email" class="input-field" placeholder="gus.goodwin@gmail.com">
+                    </div>
+                    <div class="input-container">
+                        <label for="phone" class="input-label">Phone</label>
+                        <input type="tel" id="phone" class="input-field" placeholder="      ">
+                    </div>
+                </div>
+
+
+                <h2>What type of investor are you?</h2>
+                <h4>Select the type of investor you are below.</h4>
+
+                <div class="radio-row">
+                    <label class="option">
+                        <input type="radio" name="investor" value="individual">
+                        Individual
+                        <div class="tooltip">I am a natural person investing on my own behalf as a sole owner, joint
+                            tenant or tenant in common.</div>
+                    </label>
+                    <label class="option">
+                        <input type="radio" name="investor" value="business">
+                        Business
+                        <div class="tooltip">I am a natural person investing on my owner behalf as a sole owner, joint
+                            tenant or tenant in common.</div>
+                    </label>
+
+                    <label class="option">
+                        <input type="radio" name="investor" value="ira">
+                        IRA
+                        <div class="tooltip">I am a natural person investing on my own behalf as a sole owner, joint
+                            tenant or tenant in common.</div>
+                    </label>
+
+                    <label class="option">
+                        <input type="radio" name="investor" value="trust">
+                        Trust
+                        <div class="tooltip">I am a natural person investing on my own behalf as a sole owner, joint
+                            tenant or tenant in common.</div>
+                    </label>
+                </div>
+                <div class="agree">
+                    <label>
+                        <input type="checkbox" name="agree" required>
+                        I agree to the terms and receiving notifications from intoo <a href="#" target="_blank">View
+                            full terms</a>
+                    </label>
+                </div>
+                
+                <form>
+                    <button type="submit" class="btn-create">Create Account</button>
+                </form>
+        </div>
+        </main>
+    </div>
+</body>
+
+</html>
