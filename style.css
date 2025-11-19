@@ -76,9 +76,14 @@ h3 {
     text-decoration: none;
     border: none;
     outline: none;
+    cursor: pointer;
 }
 .btn-fb {background-color: #255A9B;}
 .btn-in {background-color: #0075B6;}
+
+.social-buttons button:hover {
+    background-color:#253d85;
+}
 
 .input-container:hover {
   border-left: 2px solid #409DFD; /* левая полоса загорается синим */
@@ -212,7 +217,7 @@ h4 {
 }
 /*не поняла это выбор кнопки или наведение? если наведение, то меняю на hover либо focus*/
 
-.option input[type="radio"]:hover {
+.option input[type="radio"]:checked {
     border-color: #409DFD;
 }
 
@@ -275,6 +280,7 @@ h4 {
     border-radius: 4px;
     background-color:#3698FB;
     border: none;
+    cursor: pointer; 
 }
 .btn-create:hover {
     background-color:#2E51BA;
